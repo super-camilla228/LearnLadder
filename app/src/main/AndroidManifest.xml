@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnLadder"
+        tools:targetApi="31">
+        <activity
+            android:name="ru.elenaegevnateam.learnladder.SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.elenaegevnateam.learnladder.MainActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.AccountActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.AllCardsViewedActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.SignUpActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.ThemesActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.FormatActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.TestActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.TheoryActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.AchievementsActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.ClassActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.EmptyClassActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.SettingsActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="ru.elenaegevnateam.learnladder.TeacherSettingsActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="ru.elenaegevnateam.learnladder.TeacherTasksActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="ru.elenaegevnateam.learnladder.AddQuestionActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="ru.elenaegevnateam.learnladder.TeacherEmptyClassActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.TeacherClassesActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.TasksActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.ResultsActivity" />
+        <activity android:name="ru.elenaegevnateam.learnladder.TestsCatalogActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

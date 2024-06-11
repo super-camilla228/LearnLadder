@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "624636706032",
+    "firebase_url": "https://elenaegevna-default-rtdb.firebaseio.com",
+    "project_id": "elenaegevna",
+    "storage_bucket": "elenaegevna.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624636706032:android:4850019383503068dcd635",
+        "android_client_info": {
+          "package_name": "ru.elenaegevnateam.learnladder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624636706032-muuaorsqti89amf7fhm6fbpi38dtvfhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPdVtrEdji9OcMaOUMS1a04yG-8wmy4Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624636706032-muuaorsqti89amf7fhm6fbpi38dtvfhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624636706032:android:42f7c306abd4bc60dcd635",
+        "android_client_info": {
+          "package_name": "ru.elenaegevnateam.learnladder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624636706032-muuaorsqti89amf7fhm6fbpi38dtvfhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPdVtrEdji9OcMaOUMS1a04yG-8wmy4Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624636706032-muuaorsqti89amf7fhm6fbpi38dtvfhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
